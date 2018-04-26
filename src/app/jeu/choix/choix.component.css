@@ -1,0 +1,19 @@
+
+#title {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    color : #1aa3ff;
+    text-align:  center;
+    margin : auto;
+    border-radius : 3px;
+    margin-top : 20px;
+    margin-bottom:30px;
+}
+#bouton {
+    text-align :center;
+    background-color: #CECECE;
+    color : #1aa3ff;
+    margin-left : auto;
+    margin-right : auto;
+width:100%;
+margin-bottom : 40px;
+}

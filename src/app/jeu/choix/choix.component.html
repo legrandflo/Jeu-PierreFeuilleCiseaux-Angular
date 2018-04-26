@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" id="title">
+      {{title}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4" >
+      <!--On defini la fonction monChoix au click avec une valeur differente par champs-->
+      <button type="button" id="bouton" class="btn " (click)="monChoix(0)">PIERRE</button>
+    </div>
+    <div class="col-md-4" >
+      <button type="button" id="bouton" class="btn " (click)="monChoix(1)">FEUILLE</button>
+    </div>
+    <div class="col-md-4">
+      <button type="button" id="bouton" class="btn " (click)="monChoix(2)">CISEAUX</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" id="titre">
+      <h3> Jeu du shifumi </h3>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <div class="row">
+    <div class="col-md-12" id="messageBienvenue">
+      Bienvenue vous pouvez jouer !!
+     </div>
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="col-md-12">
+      <app-choix [title]="titre" (notify)="monchoix2($event)"></app-choix>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-6" id="message">
+      <h5>
+        <!--ngstyle avec une variable couleurMessage defini selon le resultat du jeu-->
+        <span [ngStyle]="{color:couleurReponse}"> {{reponse}}</span>
+        <span>{{message}}</span>
+      </h5>
+    </div>
+  </div>
+  <br>
+  <div class="row" id="score">
+    <div class="col-md-6" id="score1">
+      <!--variable input de score-view...ts-->
+      <app-score title="Mon score" [score]="scoreMoi"></app-score>
+    </div>
+    <div class="col-md-6" id="score2">
+      <app-score title="Score machine" [score]="scoreMachine"></app-score>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="button" id="boutonRAZ" class="btn " (click)="reset()">RAZ</button>
+    </div>
+  </div>
+</div>
