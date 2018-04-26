@@ -1,6 +1,6 @@
 # PierreFeuilleCiseaux
 
-![Demo](![Demo2](https://github.com/legrandflo/Jeu-PierreFeuilleCiseaux-Angular/blob/master/DemoPierreFeuilleCiseau.gif)
+![Demo](https://github.com/legrandflo/Jeu-PierreFeuilleCiseaux-Angular/blob/master/DemoPierreFeuilleCiseaux.gif)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
