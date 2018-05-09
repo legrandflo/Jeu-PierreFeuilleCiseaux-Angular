@@ -7,6 +7,8 @@
 
 git clone https://github.com/legrandflo/Jeu-PierreFeuilleCiseaux-Angular.git
 
+cd Jeu-PierreFeuilleCiseaux
+
 npm install
 
 ng serve
